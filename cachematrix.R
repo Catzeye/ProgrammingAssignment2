@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## this function contains the definitions for getter and setters also sets the default val for x
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -18,8 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## this function retrives the cached version if it exisits or else set the cache and returns the inverse metrix (vis functions declared on makeCacheMAtrix)
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   inv <- x$getinv()
